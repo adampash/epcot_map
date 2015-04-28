@@ -1,5 +1,12 @@
 # Browserify entry point for the global.js bundle (yay CoffeeScript!)
 
-Test = require './test.coffee'
+$ = require 'jquery'
+require './jquery.rwdImageMaps'
 
-Test.init()
+$ ->
+  $('img[usemap]').rwdImageMaps()
+  $('map area').on 'click', ->
+    console.log 'clicked!'
+    $el = $(@)
+    $el.addClass('selected pulse')
+    false

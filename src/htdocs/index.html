@@ -4,14 +4,19 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Thing</title>
+    <title>Epcot Map</title>
     <link rel="stylesheet" href="app.css" />
   </head>
 
   <body>
-    <h1>This is a thing</h1>
-    <div id="content"></div>
+    <div id="content">
+      <img src="http://i.kinja-img.com/gawker-media/image/upload/s--sEXvLZfk--/c_fit,fl_progressive,q_80,w_636/ovg0u4vfwhzljl6ntigy.jpg" class="map" usemap="#Map" width="636" />
+      <map name="Map" id="Map">
+          <area alt="" title="" href="#" shape="poly" coords="229,195,242,187,249,186,257,187,263,190,270,195,275,198,264,200,256,202,246,204,236,201" id="first" />
+      </map>
+    </div>
     <script src="global.js"></script>
-    <script src="page.js"></script>
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="jquery.imagemapster.min.js"></script>
   </body>
 </html>
