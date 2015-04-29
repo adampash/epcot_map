@@ -22,7 +22,7 @@ module.exports =
       y: 145
   Mission:
     headline: "The Best Ride in the World Is: Mission: SPACE"
-    text: "Rich: Barf bags are within reach, as is just about everything else, since you have about two feet of space to sit in and are clamped down with a harness. It is a vomit factory and, worst of all, you are told at the beginning that if you start to feel sick you should not close your eyes."
+    text: "Rich: It is a vomit factory and, worst of all, you are told at the beginning that if you start to feel sick you should not close your eyes."
     url: "http://bestrestaurant.gawker.com/the-best-ride-in-the-world-is-mission-space-1699556680"
     coords:
       x: 30
@@ -64,7 +64,7 @@ module.exports =
       y: 308
   Soarin:
     headline: "The Best Ride in the World Is: Soarin'®"
-    text: "Caity: After you’re buckled in place, the seats raise up off the ground, leaving you suspended in mid-air to create the sensation of flying. Idiotically, the ride only simulates hang gliding over various parts of California, even though there is a whole world over which to hang glide."
+    text: "Caity: The seats raise up off the ground, leaving you suspended in mid-air to create the sensation of flying. Idiotically, the ride only simulates hang gliding over various parts of California, even though there is a whole world over which to hang glide."
     url: "http://bestrestaurant.gawker.com/the-best-ride-in-the-world-is-soarin-1699562403"
     coords:
       x: 277
@@ -99,7 +99,7 @@ module.exports =
       y: 181
   France:
     headline: "The Best Restaurant in the World Is: France's Les Chefs de France"
-    text: "Caity: To this point, you may have been thinking that we have been overly harsh on our waitress, a queer little French girl, raised in an all girls school by Miss Clavelle. But what happened next was truly the most bizarre and uncomfortable waiter interaction of my life."
+    text: "Caity: You may have been thinking that we have been overly harsh on our waitress, a queer little French girl, raised in an all girls school by Miss Clavelle. But what happened next was truly the most bizarre and uncomfortable waiter interaction of my life."
     url: "http://bestrestaurant.gawker.com/the-best-restaurant-in-the-world-is-frances-les-chefs-1699499193"
     coords:
       x: 480

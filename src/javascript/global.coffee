@@ -23,5 +23,5 @@ $ ->
     info = data[$el.attr('id')]
     $('image.pulse').attr(info.coords).attr(class: 'pulse')
     $('.best_text').removeClass('hidden').find('h3 a').text(info.headline).attr('href', info.url)
-    $('.best_text p').html info.text
+    $('.best_text p').html "#{info.text} <a href=\"#{info.url}\" target=\"_blank\">Read more »</a>"
     console.log info
