@@ -1,0 +1,42 @@
+.icon.-facebook:before,.icon.-linkedin:before,.icon.-pinterest:before,.icon.-twitter:before{line-height:1;speak:none;text-transform:none;font-style:normal;font-variant:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+@font-face{font-family:ProximaNovaCond-Bold;src:url(http://x.kinja-static.com/assets/fonts/proxima/ProximaNovaCondBold-6e302c8978b1bd9d453fba318a1fa572.woff)}
+@font-face{font-family:ProximaNovaCond-Normal;src:url(http://x.kinja-static.com/assets/fonts/proxima/ProximaNovaCondNormal-30ea31cbd1e9632c6002a58b4eeb233f.woff)}
+.icon:before{color:#eb4a4b;font-size:48px}
+code{background-color:#d3d3d3;border-radius:3px;font-family:monospace;padding:0 .5em}
+.icon.-facebook:before,.icon.-linkedin:before,.icon.-pinterest:before,.icon.-twitter:before{font-family:Post-Creator-Icons}
+@font-face{font-family:Post-Creator-Icons;src:url(fonts/Post-Creator-Icons.eot);src:url(fonts/Post-Creator-Icons.eot?#iefix)format('embedded-opentype'),url(fonts/Post-Creator-Icons.woff)format('woff'),url(fonts/Post-Creator-Icons.ttf)format('truetype'),url(fonts/Post-Creator-Icons.svg#Post-Creator-Icons)format('svg');font-weight:400;font-style:normal}
+.icon.-facebook:before{content:"\e001";font-weight:400}
+.icon.-linkedin:before{content:"\e002";font-weight:400}
+.icon.-pinterest:before{content:"\e003";font-weight:400}
+.icon.-twitter:before{content:"\e004";font-weight:400}
+iframe{border:1px solid #ddd}
+div.wide{width:640px}
+body{margin:0;padding:0;color:#000}
+html{box-sizing:border-box}
+*,:after,:before{box-sizing:inherit;margin:0;padding:0}
+.hidden{display:none}
+h2,h3{font-weight:400;font-family:ProximaNovaCond-Bold;color:#000}
+.best_text h3{margin-top:10px;font-size:19px}
+.best_text h3 a{color:#000;text-decoration:none}
+.best_text h3 a:hover{text-decoration:underline}
+.best_text p{font-family:Georgia;color:#000;font-size:15px;line-height:24px;font-weight:400}
+.best_text p em{color:#000;font-weight:400}
+.best_text p a{color:red;text-decoration:none}
+.best_text p a:hover{text-decoration:underline}
+.map{width:100%;max-width:700px}
+svg circle,svg rect{transition:all 1s;cursor:pointer}
+map area.selected,map area:hover{outline:red solid 4px}
+@media screen and (max-width:480px){.foo{width:0}
+}
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.foo{width:0}
+.icon{display:inline-block;margin:0 5px}
+}
+.pulse{transform-origin:center center;-webkit-transform-origin:center center;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;animation-name:pulse;-webkit-animation-name:pulse;animation-duration:2.5s;-webkit-animation-duration:2.5s;animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite}
+@keyframes pulse{0%,100%{-webkit-transform:rotate(0)scale(.9);transform:rotate(0)scale(.9)}
+25%,75%{-webkit-transform:scale(1.3);transform:scale(1.3)}
+50%{-webkit-transform:rotate(180deg)scale(.9);transform:rotate(180deg)scale(.9)}
+}
+@-webkit-keyframes pulse{0%,100%{-webkit-transform:rotate(0)scale(.9);transform:rotate(0)scale(.9)}
+25%,75%{-webkit-transform:scale(1.3);transform:scale(1.3)}
+50%{-webkit-transform:rotate(180deg)scale(.9);transform:rotate(180deg)scale(.9)}
+}
