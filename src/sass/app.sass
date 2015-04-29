@@ -42,13 +42,15 @@ h3, h2
   max-width: 700px
 
 svg
-  circle
+  circle, rect
     transition: all 1s
     cursor: pointer
     &:hover
-      stroke: red
+      // stroke: red
     &.selected
-      stroke: red
+      // stroke: red
+  rect
+    // stroke: yellow
 
 
 map area
@@ -71,45 +73,63 @@ map area
     margin: 0 5px
 
 .pulse
+  -webkit-animation-timing-function: ease-in-out
+  animation-timing-function: ease-in-out
+
   animation-name: pulse
   -webkit-animation-name: pulse
 
-  animation-duration: 1.5s
-  -webkit-animation-duration: 1.5s
+  animation-duration: 1.2s
+  -webkit-animation-duration: 1.2s
 
   animation-iteration-count: infinite
   -webkit-animation-iteration-count: infinite
 
 @keyframes pulse
   0%
-    // transform: scale(0.8)
-    stroke-width: 3px
+    width: 27px
+    height: 27px
+    // transform: scale(0.9)
+    // stroke-width: 3px
+    // transform: translate(-25,-25)
     // outline: 12px solid red
     // opacity: 0.7
   50%
-    // transform: scale(1.5)
-    stroke-width: 8px
+    // transform: scale(1.1)
+    // transform: translate(-35.5,-31)
+    width: 32px
+    height: 32px
+    // stroke-width: 8px
     // outline: 4px solid red
     // opacity: 1
   100%
-    // transform: scale(0.8)
-    stroke-width: 3px
+    // transform: scale(0.9)
+    // transform: translate(-25,-25);
+    width: 27px
+    height: 27px
+    // stroke-width: 3px
     // outline: 12px solid red
     // opacity: 0.7;
 
 @-webkit-keyframes pulse
   0%
+    width: 27px
+    height: 27px
     // transform: scale(0.8)
-    stroke-width: 3px
+    // stroke-width: 3px
     // outline: 12px solid red
     // opacity: 0.7
   50%
+    width: 32px
+    height: 32px
     // transform: scale(1.5)
-    stroke-width: 8px
+    // stroke-width: 8px
     // outline: 4px solid red
     // opacity: 1
   100%
+    width: 27px
+    height: 27px
     // transform: scale(0.8)
-    stroke-width: 3px
+    // stroke-width: 3px
     // outline: 12px solid red
     // opacity: 0.7

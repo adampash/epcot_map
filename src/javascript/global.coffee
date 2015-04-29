@@ -9,15 +9,19 @@ $ ->
   $('svg rect, svg circle').on 'click', ->
     console.log 'clicked!'
     $el = $(@)
-    $el = $el.next('circle') unless $el.is('circle')
+    # $el = $el.next('circle') unless $el.is('circle')
     # debugger
     bootstrap($el)
     false
 
   bootstrap = ($el) ->
-    $('.selected.pulse').attr(class: '')
-    $el.attr(class: 'selected pulse')
+    # $('.selected.pulse').attr(class: '')
+    # $el.attr(class: 'selected')
+    # debugger
+    id = $el.attr 'id'
+    console.log id
     info = data[$el.attr('id')]
+    $('image.pulse').attr(info.coords).attr(class: 'pulse')
     $('.best_text').removeClass('hidden').find('h3 a').text(info.headline).attr('href', info.url)
-    $('.best_text p').text info.text
+    $('.best_text p').html info.text
     console.log info
